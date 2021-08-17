@@ -1,0 +1,14 @@
+.background-wave2-top {
+  background-image: url("../../../Images/Waves/oie_UOCnVs792Ibk.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: top;
+  height: 400px;
+}
+.background-wave2-bottom {
+  background-image: url("../../../Images/Waves/oie_mbhzNtxxnEmw.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: bottom;
+  height: 300px;
+}

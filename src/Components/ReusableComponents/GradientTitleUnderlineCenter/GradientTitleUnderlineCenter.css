@@ -1,0 +1,17 @@
+.gradient-underline-center {
+  padding-bottom: 4px;
+  position: relative;
+  text-decoration: none;
+  margin-bottom: 30px;
+}
+.gradient-underline-center::after {
+  background: #fd749b;
+  content: "";
+  position: absolute;
+  top: 50px;
+  bottom: 0;
+  left: auto;
+  height: 10px;
+  width: 50px;
+  border-radius: 10px;
+}

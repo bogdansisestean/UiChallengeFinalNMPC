@@ -36,3 +36,104 @@
     transform: rotate(360deg);
   }
 }
+/*items*/
+a {
+  font-size: 14px;
+  text-decoration: none;
+  font-weight: 700;
+}
+/*Buttons*/
+.default-btn {
+  background: linear-gradient(178.18deg, #fd749b -13.56%, #281ac8 158.3%);
+  border-radius: 100px;
+  color: white;
+  border: none;
+  padding: 17px 56px 17px 56px;
+}
+.white-btn {
+  background: #ffffff;
+  border-radius: 100px;
+  color: linear-gradient(178.18deg, #fd749b -13.56%, #281ac8 158.3%);
+  border: none;
+  padding: 17px 56px 17px 56px;
+  text-transform: uppercase;
+}
+
+/*Boxes*/
+.boxed-content {
+  max-width: 90%;
+  margin: 0 auto;
+}
+.boxed-content-small {
+  max-width: 80%;
+  margin: 0 auto;
+}
+/*Fonts*/
+
+.black-small-text {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  color: #333;
+}
+.white-thin-heading {
+  color: white;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 40px;
+  line-height: 60px;
+  margin-bottom: 30px;
+}
+.white-bold-heading {
+  color: white;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 60px;
+  margin-bottom: 30px;
+}
+.white-thin-p {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 27px;
+  color: white;
+  margin-bottom: 30px;
+}
+.black-thin-p-lh {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 40px;
+  color: #333333;
+  margin-bottom: 30px;
+}
+.gradient-text {
+  background-image: linear-gradient(174.48deg, #fd749b -12.41%, #281ac8 88.56%);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+
+.gradient-background {
+  background: linear-gradient(174.48deg, #fd749b -12.41%, #281ac8 88.56%);
+}
+.fh-section {
+  height: 80vh;
+}
+/*positions*/
+.bottom-align {
+  position: absolute;
+  bottom: 0px;
+  width: -webkit-fill-available;
+}
+.fill-available{
+  width: -webkit-fill-available;
+}

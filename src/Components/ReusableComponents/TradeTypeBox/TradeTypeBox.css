@@ -1,0 +1,33 @@
+.trade-box-wrapper {
+    position: relative;
+    border: 1px solid transparent;
+    border-radius: 16px;
+    background: white;
+    background-clip: padding-box;
+    padding: 10px;
+    width: -webkit-fill-available;
+    margin: 30px;
+}
+.trade-box-wrapper::after{
+    position: absolute;
+    top: -2px; bottom: -2px;
+    left: -2px; right: -2px;
+    background: linear-gradient(178.18deg, #fd749b -13.56%, #281ac8 158.3%);
+    content: '';
+    z-index: -1;
+    border-radius: 16px;
+}
+.icon-trade{
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    height: 58px;
+}
+.heading-trade{
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    height: 58px;
+}
